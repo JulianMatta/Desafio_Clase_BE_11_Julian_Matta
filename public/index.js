@@ -98,8 +98,8 @@ function renderListadoProductos(data){
         html = html + data.map(function(elem, index){
             return(`
             <tr>
-            <td>${elem.title}</td>
-            <td>${elem.price}</td>
+            <td><strong>${elem.title}<strong></td>
+            <td>$${elem.price}</td>
             <td><img src="${elem.thumbnail}" width=150 height=80></td>
             </tr>
             `)

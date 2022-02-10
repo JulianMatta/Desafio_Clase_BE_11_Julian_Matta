@@ -1,5 +1,5 @@
 {
-  "name": "desafio_clase10_v2",
+  "name": "desafio_clase_be_11_julian_matta_2",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -24,5 +24,6 @@
     "url": "https://github.com/JulianMatta/Desafio_Clase_BE_11_Julian_Matta/issues"
   },
   "homepage": "https://github.com/JulianMatta/Desafio_Clase_BE_11_Julian_Matta#readme",
+  "devDependencies": {},
   "description": ""
 }
