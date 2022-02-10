@@ -1,6 +1,3 @@
-// De donde saque info para hacer este ejercicio.
-//https://www.youtube.com/watch?v=ppiAvvkvAz0
-
 const express = require('express')
 const { Server: HttpServer } = require('http')
 const { Server: IOServer } = require('socket.io')
@@ -13,7 +10,6 @@ const { engine } = require("express-handlebars");
 
 const productosRouter = require('./routes/productos');
 
-// Indicamos que queremos cargar los archivos estáticos que se encuentran en dicha carpeta
 app.use(express.static('./public'))
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
@@ -23,7 +19,7 @@ app.use('/api/productos', productosRouter);
 //*******************************************************
 // MOTOR DE PLANTILLA
 app.engine(
-    "hbs", // nombre del motor / plantilla  
+    "hbs",
     engine({ //engine viene del nombre como lo importe  const { engine } = require("express-handlebars");
       extname: ".hbs", // extension de los archivos, si no ponemos por defecto va ser .handlebars
       defaultLayout: "layout.hbs", //plantilla principal

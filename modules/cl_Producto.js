@@ -5,21 +5,21 @@ module.exports = class cl_Producto {
     static #arrProductos = [
         {
             id: 1,
-            title: "Arnes",
-            price: 12500,
-            thumbnail: "/images/arnes1_400.jpg",
+            title: 'GPU 3060',                                                                                                                                 
+            price: 260000,    
+            thumbnail: "/images/img_nvidia_asus_3060.jpg",
         },
         {
             id: 2,
-            title: "Casco",
-            price: 18000,
-            thumbnail: "/images/casco2_400.jpg",
+            title: 'GPU 3060TI',                                                                                                                                 
+            price: 260000,   
+            thumbnail: "/images/img_nvidia_asus_3060TI.jpg",
         },
         {
             id: 3,
-            title: "Pédulas",
-            price: 23000,
-            thumbnail: "/images/pedula1_400.jpg",
+            title: 'GPU 3070',                                                                                                                              
+            price: 300000,   
+            thumbnail: "/images/img_nvidia_asus_3070.jpg",
         },
     ];
 
